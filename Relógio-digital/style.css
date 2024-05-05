@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Jaro", sans-serif;
+}
+body{
+    margin: auto;
+    padding: auto;
+    grid-template-rows: 1fr auto;
+    background-image: url(fotos/mar.jpg);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+   
+   
+}
+.relogio{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 200px;
+        width: 550px;
+        background: transparent;
+        border-radius: 5px;
+        box-shadow: 2px 8px 10px rgb(0, 0, 0, .5);
+        
+}
+.relogio div {
+    font-size: 25px;
+    height: 170px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+    border-radius: 10px;
+    background: rgba(5, 5, 5, 0.664);
+    box-shadow: 2px 8px 10px rgb(0, 0, 0, .5);
+    letter-spacing: 3px;
+    border: 7px;
+
+}
+footer{
+    grid-row: 2;
+    color:aliceblue;
+    display: flex;
+    font-size: 20px;
+    
+    
+    
+}
+
+p{
+    font-size: 100px;
+    color: rgb(59, 65, 70);
+    font-family: none;
+   }
+.corpo1{
+    display: flex;
+    justify-content: space-around;         
+}
+
+.calendario div {
+    font-size: 20px;
+    height: 100px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    background: rgba(5, 5, 5, 0.664);
+    box-shadow: 2px 8px 10px rgb(0, 0, 0, .5);
+    letter-spacing: 3px;
+    border-radius: 7px;
+    color: aliceblue;
+    justify-content: space-around; 
+
+}
+.data{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
