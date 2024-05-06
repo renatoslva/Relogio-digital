@@ -7,7 +7,7 @@
     font-family: "Jaro", sans-serif;
 }
 body{
-     margin-top:auto;
+    margin-top:auto;
     padding: auto;
     background-image: url(fotos/mar.jpg);
     width: 100vw;
@@ -18,7 +18,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display: grid;
+   
    
    
 }
@@ -28,6 +28,7 @@ body{
         justify-content: space-around;
         height: 200px;
         width: 550px;
+        cursor: pointer;
        
         
 }
@@ -65,7 +66,7 @@ p{
 
     grid-template-rows: 1fr auto;
     align-items: center;
-    
+   
 }
 
 .calendario{
@@ -75,7 +76,7 @@ p{
     height: 110%;
     justify-content: center;
     align-items:center;
-    
+    cursor: pointer;
     
 }
 .calendario div{
@@ -97,16 +98,16 @@ p{
    
 }
 footer{
+   
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1311114f;
+    text-align:left;
     
-    color:aliceblue;
-    display: flex;
-    font-size: 10px;
-    position:fixed;
-    padding: 100%;
-    bottom:0;
-    background-color: #0303035d;
-    padding: 5px;
-     width: 100%;
+
+    
 
   
   
@@ -116,7 +117,8 @@ footer{
     
 }
 footer a {
-    color: aliceblue;
+    
+    color: rgba(151, 156, 160, 0.692);
     text-decoration: none;
     
     
@@ -124,5 +126,6 @@ footer a {
 footer a:hover{
     color: rgb(36, 110, 175);
     text-decoration: underline;
+   
     
 }
