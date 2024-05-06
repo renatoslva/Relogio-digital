@@ -7,9 +7,8 @@
     font-family: "Jaro", sans-serif;
 }
 body{
-    margin: auto;
+   margin-top:auto;
     padding: auto;
-    grid-template-rows: 1fr auto;
     background-image: url(fotos/mar.jpg);
     width: 100vw;
     height: 100vh;
@@ -29,12 +28,10 @@ body{
         justify-content: space-around;
         height: 200px;
         width: 550px;
-        background: transparent;
-        border-radius: 5px;
-        box-shadow: 2px 8px 10px rgb(0, 0, 0, .5);
+       
         
 }
-.relogio div {
+.relogio div{
     font-size: 25px;
     height: 170px;
     width: 150px;
@@ -47,18 +44,17 @@ body{
     background: rgba(5, 5, 5, 0.664);
     box-shadow: 2px 8px 10px rgb(0, 0, 0, .5);
     letter-spacing: 3px;
-    border: 7px;
+   
 
 }
-footer{
-    grid-row: 2;
-    color:aliceblue;
-    display: flex;
-    font-size: 20px;
-    
-    
-    
+main{
+    border-radius: 10px;
+    background: rgba(5, 5, 5, 0.226);
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.171);
+    letter-spacing: 3px;
+    margin: 10px;
 }
+
 
 p{
     font-size: 100px;
@@ -66,30 +62,56 @@ p{
     font-family: none;
    }
 .corpo1{
-    display: flex;
-    justify-content: space-around;         
+
+    grid-template-rows: 1fr auto;
+    align-items: center;
+    
 }
 
-.calendario div {
-    font-size: 20px;
-    height: 100px;
-    width: 120px;
+.calendario{
+    display: flex;
+    grid-template-rows: 1fr auto;
+    width: 100%;
+    height: 110%;
+    justify-content: center;
+    align-items:center;
+    
+    
+}
+.calendario div{
+    padding: auto;
+    margin: auto;
+    font-size: 25px;
+    height: 130px;
+    width: 110px;
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: space-around;
+    flex-direction: column;
+    color: aliceblue;
+    border-radius: 10px;
     background: rgba(5, 5, 5, 0.664);
     box-shadow: 2px 8px 10px rgb(0, 0, 0, .5);
     letter-spacing: 3px;
-    border-radius: 7px;
-    color: aliceblue;
-    justify-content: space-around; 
-
+   
+   
 }
-.data{
+footer{
+   
+    color:aliceblue;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    font-size: 10px;
+    position:fixed;
+    padding-right: 100%;
+  
+   bottom:0;
+  background-color: #0303035d;
+  padding: 5px;
+  text-align: center;
+  
+
+    
+    
     
 }
+
