@@ -2,6 +2,11 @@ const horas = document.getElementById ('horas');
 const minutos = document.getElementById ('minutos');
 const segundos = document.getElementById ('segundos');
 
+
+
+
+
+
 const relogio = setInterval(function time(){
 
     let datetody = new Date();
@@ -18,3 +23,9 @@ const relogio = setInterval(function time(){
     minutos.textContent = min;
     segundos.textContent = s;
 })
+
+let date = new Data();
+let diaSemana = date.getDay();
+let dia = date.getDate();
+let mes = date.getMonth();
+let ano = date.getFullYear();
