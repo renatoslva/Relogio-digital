@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Jaro", sans-serif;
+}
+body{
+    margin-top:auto;
+    padding: auto;
+    background-image: url(fotos/mar.jpg);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+   
+   
+}
+.relogio{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 200px;
+        width: 550px;
+        cursor: pointer;
+       
+        
+}
+.relogio div{
+    font-size: 25px;
+    height: 170px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+    border-radius: 10px;
+    background: rgba(5, 5, 5, 0.664);
+    box-shadow: 2px 8px 10px rgb(0, 0, 0, .5);
+    letter-spacing: 3px;
+   
+
+}
+main{
+    border-radius: 10px;
+    background: rgba(5, 5, 5, 0.226);
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.171);
+    letter-spacing: 3px;
+    margin: 10px;
+}
+
+
+p{
+    font-size: 100px;
+    color: rgb(59, 65, 70);
+    font-family: none;
+   }
+.corpo1{
+
+    grid-template-rows: 1fr auto;
+    align-items: center;
+   
+}
+
+.calendario{
+    display: flex;
+    grid-template-rows: 1fr auto;
+    width: 100%;
+    height: 110%;
+    justify-content: center;
+    align-items:center;
+    cursor: pointer;
+    
+}
+.calendario div{
+    padding: auto;
+    margin: auto;
+    font-size: 25px;
+    height: 130px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+    border-radius: 10px;
+    background: rgba(5, 5, 5, 0.664);
+    box-shadow: 2px 8px 10px rgb(0, 0, 0, .5);
+    letter-spacing: 3px;
+   
+   
+}
+footer{
+   
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1311114f;
+    text-align:left;
+    
+
+    
+
+  
+  
+
+    
+    
+    
+}
+footer a {
+    
+    color: rgba(151, 156, 160, 0.692);
+    text-decoration: none;
+    
+    
+}
+footer a:hover{
+    color: rgb(36, 110, 175);
+    text-decoration: underline;
+   
+    
+}
